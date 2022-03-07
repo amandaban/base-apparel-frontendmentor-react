@@ -1,0 +1,101 @@
+body {
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%));
+  font-family: 'Josefin Sans', sans-serif;
+  height: 100%;
+  width: 100%;
+  
+}
+
+/*************RIGHT: IMAGE PART*************/
+img {
+  height: 100%;
+  }
+
+.destra {
+  text-align: right;
+  padding: 0%;
+}
+
+/*************LEFT: TITLE PART*************/
+
+.logo {
+  padding-top: 60px;
+  padding-bottom: 80px;
+  padding-left: 200px;
+}
+
+.text {
+  padding: 30px 100px 30px 200px;
+}
+
+h1 {
+  margin-bottom: 0%;
+}
+
+.firstline {
+  font-weight: 300!important;
+  color: hsl(0, 36%, 70%);
+  letter-spacing: 15px;
+  font-size: 70px;
+  
+}
+.secondline{
+  font-weight: 600!important;
+  letter-spacing: 20px;
+  font-size: 70px;
+}
+
+p {
+  color: hsl(0, 36%, 70%);
+  padding-top:10px;
+  padding-bottom: 40px;
+  font-size: large;
+}
+
+/*************LEFT: FORM PART*************/
+
+input {
+  border-radius: 30px;
+  border: 0.5px solid hsl(0, 36%, 70%);
+  opacity: 50%;
+  padding: 1em;
+  padding-left: 2em;
+  width: 100%;
+  height: 60px;
+  position: relative;
+}
+
+::placeholder{
+  color: hsl(0, 36%, 70%);
+}
+
+button {
+  border-radius: 30px;
+  height: 60px;
+  width: 110px;
+  background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  margin-left: -90px;
+  border-style: none;
+  position:absolute;
+}
+button .clicked {
+  height: 80px;
+  width: 130px;
+}
+
+p .error {
+  color: red;
+}
+
+.arrow {
+padding: 20%;
+}
+
+/*************BOTTOM: FOOTER PART*************/
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
